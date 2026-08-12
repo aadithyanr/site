@@ -61,6 +61,13 @@ const HomePage = ({ posts }: HomePageProps) => {
                 it to 3,000+ users organically.
               </p>
               <p>
+                i researched spiking neural networks at{" "}
+                <LinkPreview url="https://ebrain4everyone.com/">
+                  nyu&apos;s ebrain lab
+                </LinkPreview>
+                .
+              </p>
+              <p>
                 after olostep, i interned with the investments and data team at{" "}
                 <LinkPreview url="https://www.becocapital.com/">
                   beco capital
