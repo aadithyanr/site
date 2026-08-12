@@ -1,8 +1,15 @@
 import Link from "next/link";
+import { notFound } from "next/navigation";
 import { getPostData } from "@/lib/blogs";
 
 const Post = async ({ params }: { params: { slug: string } }) => {
-  const post = await getPostData(params.slug);
+  let post;
+
+  try {
+    post = await getPostData(params.slug);
+  } catch {
+    notFound();
+  }
 
   return (
     <article className="article-page">
