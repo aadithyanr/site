@@ -6,8 +6,25 @@ import ContentWrapper from "@/components/ContentWrapper";
 import BackButton from "@/components/BackButton";
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://site-eta-lime-98.vercel.app"),
   title: "aadithyan rajesh",
   description: "founding engg at context.dev, making the web usable by ai.",
+  icons: {
+    icon: "/favicon_aadi.png",
+    shortcut: "/favicon_aadi.png",
+    apple: "/favicon_aadi.png",
+  },
+  openGraph: {
+    title: "aadithyan rajesh",
+    description: "founding engg at context.dev, making the web usable by ai.",
+    images: ["/opengraph-image.png"],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "aadithyan rajesh",
+    description: "founding engg at context.dev, making the web usable by ai.",
+    images: ["/opengraph-image.png"],
+  },
 };
 
 export default function RootLayout({
