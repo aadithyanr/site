@@ -2,7 +2,7 @@ import { projects } from "@/data/projects";
 
 export default function Projects() {
   return (
-    <>
+    <section className="projects-page">
       <header className="portfolio-header">
         <h1>Projects</h1>
         <p>Things I&apos;ve built to learn, explore or solve a problem.</p>
@@ -17,6 +17,6 @@ export default function Projects() {
           </p>
         ))}
       </div>
-    </>
+    </section>
   );
 }
