@@ -92,8 +92,19 @@ const HomePage = ({ posts }: HomePageProps) => {
             </div>
           </details>
 
+          <div className="investing-note">
+            <p className="investing-label">investing</p>
+            <p>
+              i&apos;m looking to write $1k to $5k checks into early ai,
+              developer tools and deep tech startups.{" "}
+              <a href="mailto:aadithyan@context.dev">email me</a>
+              .
+            </p>
+          </div>
+
           <p className="projects-note">
-            i also make <Link href="/projects">projects from scratch</Link>.
+            oh, and i also build{" "}
+            <Link href="/projects">projects from scratch</Link>.
           </p>
         </div>
 

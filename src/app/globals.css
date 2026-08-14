@@ -196,6 +196,25 @@
     margin-bottom: 0;
   }
 
+  .investing-note {
+    margin: 24px 0 18px;
+    border-top: 1px solid var(--line);
+    padding-top: 20px;
+  }
+
+  .site-copy .investing-label {
+    margin-bottom: 7px;
+    color: var(--strong);
+    font-size: 0.82em;
+    font-variation-settings: "wght" 520;
+    font-weight: 520;
+    letter-spacing: 0.18px;
+  }
+
+  .investing-note p:last-child {
+    margin-bottom: 0;
+  }
+
   .writing-rail {
     padding-top: 1px;
     color: var(--soft);
