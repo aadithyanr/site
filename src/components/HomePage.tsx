@@ -22,7 +22,7 @@ const HomePage = ({ posts }: HomePageProps) => {
           <p className="portfolio-greeting">hello, hola, مرحباً</p>
           <h1>aadithyan rajesh</h1>
           <p>
-            founding engg at{" "}
+            20 · founding engg at{" "}
             <LinkPreview url="https://context.dev/">context.dev</LinkPreview> (yc
             s26)
           </p>
