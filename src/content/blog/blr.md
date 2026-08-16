@@ -35,6 +35,8 @@ there is also very little ceremony around ambition. someone will casually tell y
 
 it makes building feel normal. not easy, just normal.
 
+[[media:cracked]]
+
 ## everyone knows someone
 
 blr rewards showing up.
@@ -51,6 +53,8 @@ the energy is not one giant event. it is a hundred small moments. a founder work
 
 spend enough time around that and your own clock gets faster.
 
+[[media:community]]
+
 ## the food is ridiculous
 
 also, the food.
@@ -64,6 +68,8 @@ highstreet blr is great for chai and south indian food. it is the sort of place 
 naru is worth the effort when you can get a seat. kopitiam lah is for breakfast that quietly becomes two hours. bar spirit forward is for one proper drink.
 
 i ate better here than i expected to, which is saying a lot because i planned half my days around food.
+
+[[media:food]]
 
 ## i get it now
 
