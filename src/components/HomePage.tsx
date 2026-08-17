@@ -5,6 +5,7 @@ import {
   PiLinkedinLogo,
   PiX,
 } from "react-icons/pi";
+import IdentityHover from "@/components/IdentityHover";
 import { LinkPreview } from "@/components/ui/LinkPreview";
 import type { PostItem } from "@/types";
 
@@ -20,12 +21,13 @@ const HomePage = ({ posts }: HomePageProps) => {
       <section className="home-main">
         <header className="portfolio-header">
           <p className="portfolio-greeting">hello, hola, مرحباً</p>
-          <h1>aadithyan rajesh</h1>
-          <p>
-            20 · founding engg at{" "}
-            <LinkPreview url="https://context.dev/">context.dev</LinkPreview> (yc
-            s26)
-          </p>
+          <IdentityHover>
+            <h1>aadithyan rajesh</h1>
+            <p className="portfolio-role">
+              20 · founding engg at{" "}
+              <a href="https://context.dev/">context.dev</a> (yc s26)
+            </p>
+          </IdentityHover>
         </header>
 
         <div className="site-copy home-intro">
