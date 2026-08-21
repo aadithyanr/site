@@ -81,6 +81,7 @@ export default function IdentityHover({ children }: IdentityHoverProps) {
                   alt=""
                   width={1200}
                   height={1600}
+                  quality={85}
                   priority
                   sizes="(max-width: 820px) 0px, 252px"
                 />
