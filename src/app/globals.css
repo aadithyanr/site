@@ -176,6 +176,10 @@
     margin: 0 0 15px;
   }
 
+  .preserve-case {
+    text-transform: none;
+  }
+
   .site-copy a,
   .company-link {
     color: var(--strong);

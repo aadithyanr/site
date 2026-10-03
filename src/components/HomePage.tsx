@@ -58,9 +58,10 @@ const HomePage = ({ posts }: HomePageProps) => {
                 i built{" "}
                 <LinkPreview url="https://www.getnisaa.com/">
                   nisaa
-                </LinkPreview>{" "}
-                , a first of its kind period tracker for muslim women, and grew
-                it to 3,000+ users organically.
+                </LinkPreview>
+                , a first of its kind period tracker for muslim women, and
+                scaled it organically to 3,000+ users and $48k{" "}
+                <span className="preserve-case">ARR</span>.
               </p>
               <p>
                 i researched spiking neural networks at{" "}
@@ -74,7 +75,7 @@ const HomePage = ({ posts }: HomePageProps) => {
                 <LinkPreview url="https://www.becocapital.com/">
                   beco capital
                 </LinkPreview>
-                , mena&apos;s biggest vc.
+                , <span className="preserve-case">MENA</span>&apos;s biggest vc.
               </p>
               <p>
                 before that, i was a founding engineer at{" "}
