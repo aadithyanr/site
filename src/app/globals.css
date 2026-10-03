@@ -185,6 +185,44 @@
     transition: opacity 160ms ease;
   }
 
+  .company-link {
+    display: inline;
+    white-space: nowrap;
+  }
+
+  .company-link-icon {
+    display: inline-flex;
+    width: 1.2em;
+    height: 1.2em;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    margin-right: 0.32em;
+    border: 1px solid rgba(255, 255, 255, 0.12);
+    border-radius: 0.34em;
+    background: rgba(48, 39, 31, 0.76);
+    box-shadow: inset 0 0 0 1px rgba(20, 14, 9, 0.1);
+    transition: border-color 160ms ease, transform 160ms ease;
+    vertical-align: -0.2em;
+  }
+
+  .company-link-icon img {
+    display: block;
+    width: 0.88em;
+    height: 0.88em;
+    object-fit: contain;
+  }
+
+  .company-link-icon[data-domain="ebrain4everyone.com"] img {
+    width: 1.05em;
+    height: 1.05em;
+  }
+
+  .company-link:hover .company-link-icon {
+    border-color: rgba(255, 255, 255, 0.22);
+    transform: translateY(-1px);
+  }
+
   .site-copy a:hover,
   .company-link:hover {
     opacity: 0.68;
