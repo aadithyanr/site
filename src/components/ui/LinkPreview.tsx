@@ -10,10 +10,19 @@ type LinkPreviewProps = {
   url: string;
 };
 
+const companyIcons: Record<string, string> = {
+  "context.dev": "/img/company-icons/context.png",
+  "getnisaa.com": "/img/company-icons/nisaa.png",
+  "ebrain4everyone.com": "/img/company-icons/nyu.png",
+  "becocapital.com": "/img/company-icons/beco.png",
+  "olostep.com": "/img/company-icons/olostep.png",
+};
+
 export const LinkPreview = ({ children, url }: LinkPreviewProps) => {
   const isExternal = /^https?:\/\//.test(url);
   const absoluteUrl = new URL(url, "https://aadithyanrajesh.com").toString();
   const domain = new URL(absoluteUrl).hostname.replace(/^www\./, "");
+  const icon = companyIcons[domain];
   const src = `https://api.microlink.io/?${encode({
     url: absoluteUrl,
     screenshot: true,
@@ -34,7 +43,16 @@ export const LinkPreview = ({ children, url }: LinkPreviewProps) => {
         rel={isExternal ? "noopener noreferrer" : undefined}
         className="company-link"
       >
-        {children}
+        {icon && (
+          <span
+            className="company-link-icon"
+            data-domain={domain}
+            aria-hidden="true"
+          >
+            <Image src={icon} width={18} height={18} alt="" />
+          </span>
+        )}
+        <span className="company-link-label">{children}</span>
       </HoverCard.Trigger>
       <HoverCard.Portal>
         <HoverCard.Content
